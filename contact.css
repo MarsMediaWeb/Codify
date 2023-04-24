@@ -1,0 +1,105 @@
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00000085;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: rgba(122, 122, 122, 0.236);
+}
+
+
+* { 
+    box-sizing: border-box; 
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Comic Sans MS', cursive;
+  }
+
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-image: url(https://www.bradtguides.com/wp-content/uploads/2020/08/shutterstock_164144258-Wide-country-road-in-Tien-Shan-mountains.jpg);
+  }
+  
+
+  label {
+    display: block;
+    text-align: start;
+    color: #212121;
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  form {
+    width: 550px;
+    background-image: url(https://triptokyrgyzstan.com/sites/default/files/media/image/2013-03-16_150916.png);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+
+  .inputfield {
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block;
+    height: 44px;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    transition: all 1s;
+    border: 3px solid rgba(102,51,153,0);
+    background: #ffffff59;
+    color: rgb(0, 0, 0); 
+    margin: 1em 0 2em 0;
+    padding: 2em;
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus {
+    border: 3px solid white;
+  }
+  
+
+  .button {
+    border: none;
+    height: 50px;
+    width: 100%;
+    border-radius: 0.3em;
+    font-size: 25px;
+    font-weight: 600;
+
+    color: rgb(255, 255, 255);
+    background:#1238d038;
+
+    transition: transform .5s;
+  }
+  
+  .button:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    background-color: #2415f755;
+    color: #ffffff;
+  }
+
